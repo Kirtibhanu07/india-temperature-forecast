@@ -1,6 +1,6 @@
 # Deployment status
 
-The browser dashboard was deployed successfully using the Sites skill on
+The browser dashboard was deployed successfully on
 24 October 2026 IST:
 
 https://india-weather-kirti-lab.sid880088.chatgpt.site
