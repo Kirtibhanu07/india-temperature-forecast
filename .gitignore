@@ -1,0 +1,30 @@
+# Local environment, editor/runtime caches and credentials
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Third-party observations: download locally; publish provenance and derived results.
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Generated build products; figures and selected model artifacts are intentional.
+build/
+/dist/
+*.zip
+reports/metrics/**/*_feature_preview.csv
+
+reports/metrics/**/*.png
+data/live/
+data/live_cache/
+data/forecast_archive/

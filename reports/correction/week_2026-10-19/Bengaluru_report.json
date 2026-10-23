@@ -1,0 +1,53 @@
+{
+  "city": "Bengaluru",
+  "provider_model": "ecmwf_ifs025",
+  "selected_candidate": "ridge",
+  "cv_mae_by_candidate": {
+    "bias": 1.2226638023630503,
+    "boosting": 1.012753564177713,
+    "raw": 1.0945220193340495,
+    "ridge": 0.9934319291527334
+  },
+  "selection_rule": "Lowest pooled pre-test CV MAE; require at least 3% improvement over raw to use a correction.",
+  "training_rows": 22184,
+  "calibration_rows": 309,
+  "test_rows": 43,
+  "fit_labels_before_ist": "2026-10-05T00:00:00+05:30",
+  "calibration_labels_before_ist": "2026-10-19T00:00:00+05:30",
+  "first_test_target_utc": "2026-10-19T19:00:00+00:00",
+  "last_test_target_utc": "2026-10-21T13:00:00+00:00",
+  "selected_metrics": {
+    "mae_c": 0.6244532258458675,
+    "rmse_c": 0.7946519312343385,
+    "bias_c": -0.17951030302391682,
+    "within_2c": 0.9767441860465116,
+    "r2": 0.9083235585611696
+  },
+  "raw_metrics": {
+    "mae_c": 1.504651162790698,
+    "rmse_c": 1.6571901127412758,
+    "bias_c": -1.4488372093023258,
+    "within_2c": 0.7906976744186046,
+    "r2": 0.6012978957286432
+  },
+  "persistence_metrics": {
+    "mae_c": 1.0,
+    "rmse_c": 1.4224119705463283,
+    "bias_c": 0.2558139534883721,
+    "within_2c": 0.9302325581395349,
+    "r2": 0.706265703517588
+  },
+  "empirical_90_radius_c": 2.281695805751788,
+  "test_interval_coverage": 0.9767441860465116,
+  "archive_sha256": "9c27de16ab8107a11c86a0dbec2964d4dbf59c8764bc590233ace4d836f9884a",
+  "created_at_utc": "2026-10-23T19:14:14.826432+00:00",
+  "limitations": [
+    "Provider-aligned day1 forecasts: original initialization/dissemination times are not supplied.",
+    "Retrospective archive and station QC/revisions; no independently verified live-performance claim.",
+    "Rolling features describe forecast trajectories, not measured station history.",
+    "No ENSO index or cyclone advisory feed is integrated. Rain/wind are provider forecast features.",
+    "Three stations and a small exposed partial-week test do not establish India-wide skill.",
+    "Empirical time-split error bands have no guaranteed coverage under weather drift or dependence.",
+    "Correction applies only to matching provider/day1 feature streams, not every forecast lead."
+  ]
+}

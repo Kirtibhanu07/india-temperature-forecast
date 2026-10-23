@@ -1,0 +1,8 @@
+{
+  "url": "https://previous-runs-api.open-meteo.com/v1/forecast?latitude=28.5845%2C19.0887%2C12.95&longitude=77.2058%2C72.8679%2C77.6333&models=ecmwf_ifs025&timezone=UTC&wind_speed_unit=ms&start_date=2024-01-01&end_date=2026-10-21&hourly=temperature_2m_previous_day1%2Crelative_humidity_2m_previous_day1%2Cdew_point_2m_previous_day1%2Cpressure_msl_previous_day1%2Cwind_speed_10m_previous_day1%2Cwind_direction_10m_previous_day1%2Cprecipitation_previous_day1%2Ccloud_cover_previous_day1%2Cshortwave_radiation_previous_day1",
+  "retrieved_at": "2026-10-23T19:08:09.396963+00:00",
+  "sha256": "9c27de16ab8107a11c86a0dbec2964d4dbf59c8764bc590233ace4d836f9884a",
+  "bytes": 4460635,
+  "kind": "provider_aligned_previous_day1",
+  "availability_limit": "Original run initialization and dissemination timestamps are not supplied by this endpoint."
+}

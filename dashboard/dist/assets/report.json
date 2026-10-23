@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "week": "2026-10-19",
+  "cities": {
+    "Delhi": {
+      "city": "Delhi",
+      "provider_model": "ecmwf_ifs025",
+      "selected_candidate": "boosting",
+      "cv_mae_by_candidate": {
+        "bias": 1.6816143497757847,
+        "boosting": 1.2668164337309316,
+        "raw": 1.8763452914798209,
+        "ridge": 1.4253251291721172
+      },
+      "selection_rule": "Lowest pooled pre-test CV MAE; require at least 3% improvement over raw to use a correction.",
+      "training_rows": 8942,
+      "calibration_rows": 303,
+      "test_rows": 39,
+      "fit_labels_before_ist": "2026-10-05T00:00:00+05:30",
+      "calibration_labels_before_ist": "2026-10-19T00:00:00+05:30",
+      "first_test_target_utc": "2026-10-19T19:00:00+00:00",
+      "last_test_target_utc": "2026-10-21T13:00:00+00:00",
+      "selected_metrics": {
+        "mae_c": 1.097348126263514,
+        "rmse_c": 1.282225547385614,
+        "bias_c": 0.8097449822745267,
+        "within_2c": 0.8974358974358975,
+        "r2": 0.9345436239523481
+      },
+      "raw_metrics": {
+        "mae_c": 1.4512820512820512,
+        "rmse_c": 1.6172150801252798,
+        "bias_c": 0.6307692307692304,
+        "within_2c": 0.7948717948717948,
+        "r2": 0.895874123384714
+      },
+      "persistence_metrics": {
+        "mae_c": 0.46666666666666673,
+        "rmse_c": 0.8006407690254357,
+        "bias_c": -0.3333333333333333,
+        "within_2c": 0.9743589743589743,
+        "r2": 0.9744789518099789
+      },
+      "empirical_90_radius_c": 3.883333679442167,
+      "test_interval_coverage": 1.0,
+      "archive_sha256": "9c27de16ab8107a11c86a0dbec2964d4dbf59c8764bc590233ace4d836f9884a",
+      "created_at_utc": "2026-10-23T19:14:14.826432+00:00",
+      "limitations": [
+        "Provider-aligned day1 forecasts: original initialization/dissemination times are not supplied.",
+        "Retrospective archive and station QC/revisions; no independently verified live-performance claim.",
+        "Rolling features describe forecast trajectories, not measured station history.",
+        "No ENSO index or cyclone advisory feed is integrated. Rain/wind are provider forecast features.",
+        "Three stations and a small exposed partial-week test do not establish India-wide skill.",
+        "Empirical time-split error bands have no guaranteed coverage under weather drift or dependence.",
+        "Correction applies only to matching provider/day1 feature streams, not every forecast lead."
+      ]
+    },
+    "Mumbai": {
+      "city": "Mumbai",
+      "provider_model": "ecmwf_ifs025",
+      "selected_candidate": "ridge",
+      "cv_mae_by_candidate": {
+        "bias": 1.1873931623931622,
+        "boosting": 0.8319026211889925,
+        "raw": 1.9297008547008547,
+        "ridge": 0.7654931799828858
+      },
+      "selection_rule": "Lowest pooled pre-test CV MAE; require at least 3% improvement over raw to use a correction.",
+      "training_rows": 22855,
+      "calibration_rows": 312,
+      "test_rows": 43,
+      "fit_labels_before_ist": "2026-10-05T00:00:00+05:30",
+      "calibration_labels_before_ist": "2026-10-19T00:00:00+05:30",
+      "first_test_target_utc": "2026-10-19T19:00:00+00:00",
+      "last_test_target_utc": "2026-10-21T13:00:00+00:00",
+      "selected_metrics": {
+        "mae_c": 0.9223117166977921,
+        "rmse_c": 1.0625303525351162,
+        "bias_c": -0.8959803722155246,
+        "within_2c": 0.9767441860465116,
+        "r2": 0.7813712906516571
+      },
+      "raw_metrics": {
+        "mae_c": 2.2,
+        "rmse_c": 2.4584926370667914,
+        "bias_c": -2.1906976744186046,
+        "within_2c": 0.46511627906976744,
+        "r2": -0.17047549224968583
+      },
+      "persistence_metrics": {
+        "mae_c": 0.627906976744186,
+        "rmse_c": 0.9021937088963173,
+        "bias_c": -0.11627906976744186,
+        "within_2c": 1.0,
+        "r2": 0.842375366568915
+      },
+      "empirical_90_radius_c": 2.457549795500576,
+      "test_interval_coverage": 1.0,
+      "archive_sha256": "9c27de16ab8107a11c86a0dbec2964d4dbf59c8764bc590233ace4d836f9884a",
+      "created_at_utc": "2026-10-23T19:14:14.826432+00:00",
+      "limitations": [
+        "Provider-aligned day1 forecasts: original initialization/dissemination times are not supplied.",
+        "Retrospective archive and station QC/revisions; no independently verified live-performance claim.",
+        "Rolling features describe forecast trajectories, not measured station history.",
+        "No ENSO index or cyclone advisory feed is integrated. Rain/wind are provider forecast features.",
+        "Three stations and a small exposed partial-week test do not establish India-wide skill.",
+        "Empirical time-split error bands have no guaranteed coverage under weather drift or dependence.",
+        "Correction applies only to matching provider/day1 feature streams, not every forecast lead."
+      ]
+    },
+    "Bengaluru": {
+      "city": "Bengaluru",
+      "provider_model": "ecmwf_ifs025",
+      "selected_candidate": "ridge",
+      "cv_mae_by_candidate": {
+        "bias": 1.2226638023630503,
+        "boosting": 1.012753564177713,
+        "raw": 1.0945220193340495,
+        "ridge": 0.9934319291527334
+      },
+      "selection_rule": "Lowest pooled pre-test CV MAE; require at least 3% improvement over raw to use a correction.",
+      "training_rows": 22184,
+      "calibration_rows": 309,
+      "test_rows": 43,
+      "fit_labels_before_ist": "2026-10-05T00:00:00+05:30",
+      "calibration_labels_before_ist": "2026-10-19T00:00:00+05:30",
+      "first_test_target_utc": "2026-10-19T19:00:00+00:00",
+      "last_test_target_utc": "2026-10-21T13:00:00+00:00",
+      "selected_metrics": {
+        "mae_c": 0.6244532258458675,
+        "rmse_c": 0.7946519312343385,
+        "bias_c": -0.17951030302391682,
+        "within_2c": 0.9767441860465116,
+        "r2": 0.9083235585611696
+      },
+      "raw_metrics": {
+        "mae_c": 1.504651162790698,
+        "rmse_c": 1.6571901127412758,
+        "bias_c": -1.4488372093023258,
+        "within_2c": 0.7906976744186046,
+        "r2": 0.6012978957286432
+      },
+      "persistence_metrics": {
+        "mae_c": 1.0,
+        "rmse_c": 1.4224119705463283,
+        "bias_c": 0.2558139534883721,
+        "within_2c": 0.9302325581395349,
+        "r2": 0.706265703517588
+      },
+      "empirical_90_radius_c": 2.281695805751788,
+      "test_interval_coverage": 0.9767441860465116,
+      "archive_sha256": "9c27de16ab8107a11c86a0dbec2964d4dbf59c8764bc590233ace4d836f9884a",
+      "created_at_utc": "2026-10-23T19:14:14.826432+00:00",
+      "limitations": [
+        "Provider-aligned day1 forecasts: original initialization/dissemination times are not supplied.",
+        "Retrospective archive and station QC/revisions; no independently verified live-performance claim.",
+        "Rolling features describe forecast trajectories, not measured station history.",
+        "No ENSO index or cyclone advisory feed is integrated. Rain/wind are provider forecast features.",
+        "Three stations and a small exposed partial-week test do not establish India-wide skill.",
+        "Empirical time-split error bands have no guaranteed coverage under weather drift or dependence.",
+        "Correction applies only to matching provider/day1 feature streams, not every forecast lead."
+      ]
+    }
+  },
+  "summary": [
+    {
+      "city": "Delhi",
+      "selected_candidate": "boosting",
+      "train_rows": 8942,
+      "calibration_rows": 303,
+      "test_rows": 39,
+      "raw_mae_c": 1.4512820512820512,
+      "selected_mae_c": 1.097348126263514,
+      "persistence_mae_c": 0.46666666666666673,
+      "raw_rmse_c": 1.6172150801252798,
+      "selected_rmse_c": 1.282225547385614,
+      "interval_radius_c": 3.883333679442167,
+      "test_interval_coverage": 1.0
+    },
+    {
+      "city": "Mumbai",
+      "selected_candidate": "ridge",
+      "train_rows": 22855,
+      "calibration_rows": 312,
+      "test_rows": 43,
+      "raw_mae_c": 2.2,
+      "selected_mae_c": 0.9223117166977921,
+      "persistence_mae_c": 0.627906976744186,
+      "raw_rmse_c": 2.4584926370667914,
+      "selected_rmse_c": 1.0625303525351162,
+      "interval_radius_c": 2.457549795500576,
+      "test_interval_coverage": 1.0
+    },
+    {
+      "city": "Bengaluru",
+      "selected_candidate": "ridge",
+      "train_rows": 22184,
+      "calibration_rows": 309,
+      "test_rows": 43,
+      "raw_mae_c": 1.504651162790698,
+      "selected_mae_c": 0.6244532258458675,
+      "persistence_mae_c": 1.0,
+      "raw_rmse_c": 1.6571901127412758,
+      "selected_rmse_c": 0.7946519312343385,
+      "interval_radius_c": 2.281695805751788,
+      "test_interval_coverage": 0.9767441860465116
+    }
+  ]
+}

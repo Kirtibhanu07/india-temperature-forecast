@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this research software, cite it and separately acknowledge NOAA NCEI GHCNh and its observation sources."
+title: "India Temperature Forecast: a reproducible station-based 24-hour research experiment"
+type: software
+version: 0.2.0
+authors:
+  - family-names: Bhanu
+    given-names: Kirti
+abstract: "Temperature forecasting for Delhi, Mumbai and Bengaluru using measured station reports, causal weather features and chronological validation against persistence."

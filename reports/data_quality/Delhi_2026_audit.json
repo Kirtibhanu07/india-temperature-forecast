@@ -1,0 +1,220 @@
+{
+  "station_id": "INI0000VIDD",
+  "station_name": "SAFDARJUNG",
+  "raw_rows": 4892,
+  "raw_columns": 329,
+  "invalid_timestamps": 0,
+  "duplicate_timestamps": 0,
+  "subhourly_reports_excluded": 985,
+  "hourly_rows": 7046,
+  "first_utc": "2026-01-01T00:00:00+00:00",
+  "last_utc": "2026-10-21T13:00:00+00:00",
+  "last_report_utc": "2026-10-21T13:00:00+00:00",
+  "observed_temperature_hours": 3882,
+  "temperature_missing_percent": 44.9,
+  "sampling": "Exact UTC-hour reports only; no target imputation or subhourly binning",
+  "variables": [
+    {
+      "variable": "temperature",
+      "raw_rows": 4892,
+      "raw_missing": 5,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 20,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 0,
+      "qc_counts": {
+        "": 4215,
+        "1": 652,
+        "2": 20
+      },
+      "source_counts": {
+        "413": 3421,
+        "412": 794,
+        "223": 672
+      },
+      "hourly_missing_percent": 44.9
+    },
+    {
+      "variable": "dew_point_temperature",
+      "raw_rows": 4892,
+      "raw_missing": 5,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 0,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 0,
+      "qc_counts": {
+        "": 4215,
+        "1": 672
+      },
+      "source_counts": {
+        "413": 3421,
+        "412": 794,
+        "223": 672
+      },
+      "hourly_missing_percent": 44.62
+    },
+    {
+      "variable": "relative_humidity",
+      "raw_rows": 4892,
+      "raw_missing": 5,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 24,
+      "range_rejected_nonmissing": 4,
+      "measurement_rejected_nonmissing": 0,
+      "qc_counts": {
+        "": 4863,
+        "f": 20,
+        "3": 4
+      },
+      "source_counts": {
+        "413": 3421,
+        "412": 794,
+        "223": 672
+      },
+      "hourly_missing_percent": 44.96
+    },
+    {
+      "variable": "wind_speed",
+      "raw_rows": 4892,
+      "raw_missing": 33,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 0,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 0,
+      "qc_counts": {
+        "": 4187,
+        "1": 672
+      },
+      "source_counts": {
+        "413": 3420,
+        "412": 767,
+        "223": 672
+      },
+      "hourly_missing_percent": 45.02
+    },
+    {
+      "variable": "wind_direction",
+      "raw_rows": 4892,
+      "raw_missing": 639,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 219,
+      "range_rejected_nonmissing": 367,
+      "measurement_rejected_nonmissing": 14,
+      "qc_counts": {
+        "": 3729,
+        "1": 305,
+        "5": 219
+      },
+      "source_counts": {
+        "413": 2734,
+        "412": 847,
+        "223": 672
+      },
+      "hourly_missing_percent": 56.27
+    },
+    {
+      "variable": "wind_gust",
+      "raw_rows": 4892,
+      "raw_missing": 4868,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 1,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 0,
+      "qc_counts": {
+        "": 23,
+        "2": 1
+      },
+      "source_counts": {
+        "413": 23,
+        "223": 1
+      },
+      "hourly_missing_percent": 99.82
+    },
+    {
+      "variable": "sea_level_pressure",
+      "raw_rows": 4892,
+      "raw_missing": 2618,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 0,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 0,
+      "qc_counts": {
+        "": 1612,
+        "1": 662
+      },
+      "source_counts": {
+        "412": 1612,
+        "223": 662
+      },
+      "hourly_missing_percent": 67.73
+    },
+    {
+      "variable": "station_level_pressure",
+      "raw_rows": 4892,
+      "raw_missing": 4835,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 0,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 0,
+      "qc_counts": {
+        "": 56,
+        "1": 1
+      },
+      "source_counts": {
+        "412": 56,
+        "223": 1
+      },
+      "hourly_missing_percent": 99.19
+    },
+    {
+      "variable": "precipitation",
+      "raw_rows": 4892,
+      "raw_missing": 4506,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 0,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 0,
+      "qc_counts": {
+        "": 386
+      },
+      "source_counts": {
+        "412": 386
+      },
+      "hourly_missing_percent": 94.52
+    },
+    {
+      "variable": "precipitation_3_hour",
+      "raw_rows": 4892,
+      "raw_missing": 4885,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 0,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 4,
+      "qc_counts": {
+        "1": 7
+      },
+      "source_counts": {
+        "223": 7
+      },
+      "hourly_missing_percent": 99.96
+    },
+    {
+      "variable": "precipitation_24_hour",
+      "raw_rows": 4892,
+      "raw_missing": 4879,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 0,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 3,
+      "qc_counts": {
+        "1": 13
+      },
+      "source_counts": {
+        "223": 13
+      },
+      "hourly_missing_percent": 99.86
+    }
+  ],
+  "input_sha256": "9be84ab9c65babff3d1bae5c49c7eb23d5ee2ed276c43b68426316bbc63247da",
+  "source_url": "https://www.ncei.noaa.gov/oa/global-historical-climatology-network/hourly/access/by-year/2026/psv/GHCNh_INI0000VIDD_2026.psv"
+}

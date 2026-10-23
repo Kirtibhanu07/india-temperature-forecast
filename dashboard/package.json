@@ -1,0 +1,1 @@
+{"name":"india-weather-lab-dashboard","private":true,"type":"module","scripts":{"test":"node scripts/test-portable.mjs"}}

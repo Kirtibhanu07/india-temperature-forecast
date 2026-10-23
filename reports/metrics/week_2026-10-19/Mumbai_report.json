@@ -1,0 +1,38 @@
+{
+  "city": "Mumbai",
+  "station_id": "INI0000VABB",
+  "horizon_hours": 24,
+  "target_type": "actual_unfilled_station_temperature",
+  "input_sha256": "8868c6c66e44139bd68efd12b5db9c67675cca8f1fae37f970b3b9dea193452a",
+  "run_at_utc": "2026-10-23T18:04:10.325811+00:00",
+  "train_labels_before_ist": "2026-10-19T00:00:00+05:30",
+  "last_training_target_utc": "2026-10-18T18:00:00+00:00",
+  "first_test_origin_utc": "2026-10-18T19:00:00+00:00",
+  "first_test_target_utc": "2026-10-19T19:00:00+00:00",
+  "last_test_target_utc": "2026-10-21T13:00:00+00:00",
+  "train_pairs": 6717,
+  "test_pairs": 43,
+  "model_metrics": {
+    "mae_c": 0.686144352359435,
+    "rmse_c": 0.8543395371949981,
+    "bias_c": -0.1580378691963893,
+    "within_2c": 0.9534883720930233,
+    "r2": 0.858653352863204
+  },
+  "persistence_metrics": {
+    "mae_c": 0.627906976744186,
+    "rmse_c": 0.9021937088963173,
+    "bias_c": -0.11627906976744186,
+    "within_2c": 1.0,
+    "r2": 0.842375366568915
+  },
+  "limitations": [
+    "2026 only: less than a complete annual cycle.",
+    "Archive retrieval/QC/revisions do not establish real-time availability at historical origins.",
+    "Test is partial-week; missing target hours are excluded, not filled.",
+    "Sparse stations can bias evaluation toward available reporting hours.",
+    "Rain/cyclones/ENSO and calibrated prediction intervals are not yet model inputs.",
+    "Weights frozen before this week; test inputs update as observed. First target is Tuesday.",
+    "No hyperparameter tuning on this test week."
+  ]
+}

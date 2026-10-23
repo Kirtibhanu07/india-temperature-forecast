@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "files": {
+    "Delhi.joblib": "866cbc0b1e77fb4a7975b21dc766300a83e07762252bb28e686e28ae00d79d67",
+    "Mumbai.joblib": "aa373b3768faaac3f06d9f88e36dedde02b377fdd006cc20e589b93bb4888be2",
+    "Bengaluru.joblib": "3316b589a886707daabe244282f517da730c83d0ea1797660dc552278bd83f60",
+    "portable.json": "723f96ea684e77ceaeb321b59b203225f5d5847558d021f52ebd2e0b3cd2c8fd"
+  }
+}

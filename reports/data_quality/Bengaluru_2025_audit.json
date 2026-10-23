@@ -1,0 +1,207 @@
+{
+  "station_id": "INM00043296",
+  "station_name": "BANGALORE/HINDUSTAN AIRPORT",
+  "raw_rows": 16628,
+  "raw_columns": 329,
+  "invalid_timestamps": 0,
+  "duplicate_timestamps": 0,
+  "subhourly_reports_excluded": 8223,
+  "hourly_rows": 8760,
+  "first_utc": "2025-01-01T00:00:00+00:00",
+  "last_utc": "2025-12-31T23:00:00+00:00",
+  "last_report_utc": "2025-12-31T23:30:00+00:00",
+  "observed_temperature_hours": 8403,
+  "temperature_missing_percent": 4.08,
+  "sampling": "Exact UTC-hour reports only; no target imputation or subhourly binning",
+  "variables": [
+    {
+      "variable": "temperature",
+      "raw_rows": 16628,
+      "raw_missing": 1,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 5,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 0,
+      "qc_counts": {
+        "1": 16361,
+        "": 238,
+        "4": 23,
+        "2": 5
+      },
+      "source_counts": {
+        "223": 16389,
+        "999": 238
+      },
+      "hourly_missing_percent": 4.08
+    },
+    {
+      "variable": "dew_point_temperature",
+      "raw_rows": 16628,
+      "raw_missing": 4,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 4,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 0,
+      "qc_counts": {
+        "1": 16359,
+        "": 238,
+        "4": 23,
+        "2": 4
+      },
+      "source_counts": {
+        "223": 16386,
+        "999": 238
+      },
+      "hourly_missing_percent": 4.1
+    },
+    {
+      "variable": "relative_humidity",
+      "raw_rows": 16628,
+      "raw_missing": 5,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 8,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 0,
+      "qc_counts": {
+        "": 16615,
+        "f": 8
+      },
+      "source_counts": {
+        "223": 16385,
+        "999": 238
+      },
+      "hourly_missing_percent": 4.11
+    },
+    {
+      "variable": "wind_speed",
+      "raw_rows": 16628,
+      "raw_missing": 17,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 1,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 0,
+      "qc_counts": {
+        "1": 16372,
+        "": 238,
+        "2": 1
+      },
+      "source_counts": {
+        "223": 16373,
+        "999": 238
+      },
+      "hourly_missing_percent": 4.18
+    },
+    {
+      "variable": "wind_direction",
+      "raw_rows": 16628,
+      "raw_missing": 17,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 26,
+      "range_rejected_nonmissing": 907,
+      "measurement_rejected_nonmissing": 570,
+      "qc_counts": {
+        "1": 15466,
+        "": 1119,
+        "5": 26
+      },
+      "source_counts": {
+        "223": 16373,
+        "999": 238
+      },
+      "hourly_missing_percent": 9.03
+    },
+    {
+      "variable": "wind_gust",
+      "raw_rows": 16628,
+      "raw_missing": 16625,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 0,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 0,
+      "qc_counts": {
+        "1": 3
+      },
+      "source_counts": {
+        "223": 3
+      },
+      "hourly_missing_percent": 99.98
+    },
+    {
+      "variable": "sea_level_pressure",
+      "raw_rows": 16628,
+      "raw_missing": 16626,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 0,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 0,
+      "qc_counts": {
+        "1": 2
+      },
+      "source_counts": {
+        "223": 2
+      },
+      "hourly_missing_percent": 99.98
+    },
+    {
+      "variable": "station_level_pressure",
+      "raw_rows": 16628,
+      "raw_missing": 14594,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 2,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 0,
+      "qc_counts": {
+        "1": 2032,
+        "2": 2
+      },
+      "source_counts": {
+        "223": 2034
+      },
+      "hourly_missing_percent": 76.8
+    },
+    {
+      "variable": "precipitation",
+      "raw_rows": 16628,
+      "raw_missing": 16628,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 0,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 0,
+      "qc_counts": {},
+      "source_counts": {},
+      "hourly_missing_percent": 100.0
+    },
+    {
+      "variable": "precipitation_3_hour",
+      "raw_rows": 16628,
+      "raw_missing": 16610,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 0,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 12,
+      "qc_counts": {
+        "1": 18
+      },
+      "source_counts": {
+        "223": 18
+      },
+      "hourly_missing_percent": 99.93
+    },
+    {
+      "variable": "precipitation_24_hour",
+      "raw_rows": 16628,
+      "raw_missing": 16500,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 0,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 24,
+      "qc_counts": {
+        "1": 128
+      },
+      "source_counts": {
+        "223": 128
+      },
+      "hourly_missing_percent": 98.81
+    }
+  ]
+}

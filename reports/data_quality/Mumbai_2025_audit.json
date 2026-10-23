@@ -1,0 +1,211 @@
+{
+  "station_id": "INI0000VABB",
+  "station_name": "CHHATRAPATI SHIVAJI INTL",
+  "raw_rows": 16818,
+  "raw_columns": 329,
+  "invalid_timestamps": 0,
+  "duplicate_timestamps": 0,
+  "subhourly_reports_excluded": 8385,
+  "hourly_rows": 8760,
+  "first_utc": "2025-01-01T00:00:00+00:00",
+  "last_utc": "2025-12-31T23:00:00+00:00",
+  "last_report_utc": "2025-12-31T23:30:00+00:00",
+  "observed_temperature_hours": 8432,
+  "temperature_missing_percent": 3.74,
+  "sampling": "Exact UTC-hour reports only; no target imputation or subhourly binning",
+  "variables": [
+    {
+      "variable": "temperature",
+      "raw_rows": 16818,
+      "raw_missing": 0,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 3,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 0,
+      "qc_counts": {
+        "1": 16575,
+        "": 235,
+        "4": 5,
+        "2": 3
+      },
+      "source_counts": {
+        "223": 16583,
+        "999": 235
+      },
+      "hourly_missing_percent": 3.74
+    },
+    {
+      "variable": "dew_point_temperature",
+      "raw_rows": 16818,
+      "raw_missing": 4,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 25,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 0,
+      "qc_counts": {
+        "1": 16549,
+        "": 235,
+        "2": 25,
+        "4": 5
+      },
+      "source_counts": {
+        "223": 16579,
+        "999": 235
+      },
+      "hourly_missing_percent": 3.93
+    },
+    {
+      "variable": "relative_humidity",
+      "raw_rows": 16818,
+      "raw_missing": 4,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 28,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 0,
+      "qc_counts": {
+        "": 16786,
+        "f": 28
+      },
+      "source_counts": {
+        "223": 16579,
+        "999": 235
+      },
+      "hourly_missing_percent": 3.94
+    },
+    {
+      "variable": "wind_speed",
+      "raw_rows": 16818,
+      "raw_missing": 1,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 0,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 0,
+      "qc_counts": {
+        "1": 16582,
+        "": 235
+      },
+      "source_counts": {
+        "223": 16582,
+        "999": 235
+      },
+      "hourly_missing_percent": 3.74
+    },
+    {
+      "variable": "wind_direction",
+      "raw_rows": 16818,
+      "raw_missing": 1,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 1542,
+      "range_rejected_nonmissing": 3252,
+      "measurement_rejected_nonmissing": 23,
+      "qc_counts": {
+        "1": 13330,
+        "": 1945,
+        "5": 1542
+      },
+      "source_counts": {
+        "223": 16582,
+        "999": 235
+      },
+      "hourly_missing_percent": 29.49
+    },
+    {
+      "variable": "wind_gust",
+      "raw_rows": 16818,
+      "raw_missing": 15361,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 0,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 0,
+      "qc_counts": {
+        "1": 1447,
+        "": 10
+      },
+      "source_counts": {
+        "223": 1447,
+        "999": 10
+      },
+      "hourly_missing_percent": 91.61
+    },
+    {
+      "variable": "sea_level_pressure",
+      "raw_rows": 16818,
+      "raw_missing": 13943,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 0,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 0,
+      "qc_counts": {
+        "1": 2875
+      },
+      "source_counts": {
+        "223": 2875
+      },
+      "hourly_missing_percent": 67.18
+    },
+    {
+      "variable": "station_level_pressure",
+      "raw_rows": 16818,
+      "raw_missing": 16816,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 0,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 0,
+      "qc_counts": {
+        "1": 2
+      },
+      "source_counts": {
+        "223": 2
+      },
+      "hourly_missing_percent": 99.98
+    },
+    {
+      "variable": "precipitation",
+      "raw_rows": 16818,
+      "raw_missing": 16817,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 0,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 0,
+      "qc_counts": {
+        "1": 1
+      },
+      "source_counts": {
+        "223": 1
+      },
+      "hourly_missing_percent": 99.99
+    },
+    {
+      "variable": "precipitation_3_hour",
+      "raw_rows": 16818,
+      "raw_missing": 16747,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 0,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 6,
+      "qc_counts": {
+        "1": 71
+      },
+      "source_counts": {
+        "223": 71
+      },
+      "hourly_missing_percent": 99.26
+    },
+    {
+      "variable": "precipitation_24_hour",
+      "raw_rows": 16818,
+      "raw_missing": 16679,
+      "invalid_numeric": 0,
+      "qc_rejected_nonmissing": 0,
+      "range_rejected_nonmissing": 0,
+      "measurement_rejected_nonmissing": 9,
+      "qc_counts": {
+        "1": 139
+      },
+      "source_counts": {
+        "223": 139
+      },
+      "hourly_missing_percent": 98.52
+    }
+  ]
+}

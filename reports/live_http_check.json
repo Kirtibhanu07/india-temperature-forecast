@@ -1,0 +1,33 @@
+{
+  "scope": "Local single-request smoke checks, not a load test",
+  "checks": [
+    {
+      "method": "GET",
+      "path": "/healthz",
+      "status": 200,
+      "elapsed_seconds": 0.016
+    },
+    {
+      "method": "POST",
+      "path": "/predict",
+      "status": 200,
+      "elapsed_seconds": 0.721,
+      "temperature_c": 28.945946145949527,
+      "valid_utc": "2026-10-24T19:00:00+00:00",
+      "selected_candidate": "ridge"
+    },
+    {
+      "method": "GET",
+      "path": "/forecast?city=Bengaluru&days=1",
+      "status": 200,
+      "elapsed_seconds": 1.315,
+      "hourly_rows": 24
+    },
+    {
+      "method": "POST",
+      "path": "/predict",
+      "status": 422,
+      "elapsed_seconds": 0.002
+    }
+  ]
+}
